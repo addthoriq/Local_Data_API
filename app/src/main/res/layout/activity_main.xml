@@ -135,4 +135,12 @@
             />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnMoveAPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/move_to_API"
+        />
+
 </LinearLayout>

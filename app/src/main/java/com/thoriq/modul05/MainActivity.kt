@@ -1,5 +1,6 @@
 package com.thoriq.modul05
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -19,6 +20,14 @@ class MainActivity : AppCompatActivity() {
         handleUpdates()
         handleDeletes()
         handleViewing()
+        moveToAPI()
+    }
+
+    private fun moveToAPI(){
+        binding.btnMoveAPI.setOnClickListener{
+            val itn = Intent(this@MainActivity, KonekAPI::class.java)
+            startActivity(itn)
+        }
     }
 
     private fun showToast(text: String){

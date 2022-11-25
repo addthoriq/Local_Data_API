@@ -7,4 +7,6 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="view_all">View All</string>
+    <string name="move_to_API">Pindah ke Halaman API</string>
+    <string name="email">Email</string>
 </resources>
